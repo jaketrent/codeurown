@@ -48,7 +48,7 @@ export default props =>
       }
       .mail__input {
         padding: 0.125em .5em;
-        border: 0;
+        border: 4px solid grey;
         border-radius: 3px;
         height: 2em;
         line-height: 2em;
@@ -58,21 +58,19 @@ export default props =>
       .mail__button {
         display: inline-block;
         height: 2em;
-        line-height: 2em;
         padding: 0 2em;
-        background: linear-gradient(0deg, #d1591a, #e56a2c);
+        background: red;
+        border: 4px solid #b11818;
         border-radius: 3px;
         margin: 0 auto;
         text-align: center;
-        border: none;
         font-size: 1.25em;
         color: #fff;
         font-family: 'Helvetica Neue', Helvetica, sans-serif;
       }
       .mail__button:hover {
         color: #fff;
-        background: #e56a2c;
-        border: none;
+        background: #b11818;
       }
       @media screen and (min-width: 426px) {
         .mail {

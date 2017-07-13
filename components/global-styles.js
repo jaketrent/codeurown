@@ -12,8 +12,8 @@ export default _ =>
       margin: 0;
       padding: 0;
       font-family: 'Helvetica Neue', Helvetica, sans-serif;
-      background-color: #0f6402;
-      color: #fff;
+      background-color: #fff;
+      color: #636363;
       font-size: 16px;
     }
     h1,
@@ -21,6 +21,7 @@ export default _ =>
     h3 {
       font-family: "Gobold-Regular", sans-serif;
       font-weight: 100;
+      color: blue;
       margin: 0;
     }
     a {
@@ -45,6 +46,11 @@ export default _ =>
     }
     iframe {
       max-width: 100%;
+    }
+    input[type=button],
+    input[type=submit],
+    button {
+      cursor: pointer;
     }
     @media screen and (min-width: 426px) {
     }
