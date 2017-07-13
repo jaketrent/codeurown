@@ -10,7 +10,7 @@
   },
   "keywords": [],
   "author": "jaketrent",
-  "license": "MIT",
+  "license": "LicenseRef-LICENSE",
   "dependencies": {
     "next": "^3.0.1-beta.13",
     "react": "^15.6.1",
