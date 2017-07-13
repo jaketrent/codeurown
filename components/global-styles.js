@@ -1,5 +1,9 @@
 export default _ =>
   <style global jsx>{`
+    @font-face {
+      font-family: 'Gobold-Regular';
+      src: url('/static/type/gobold-regular.otf') format('opentype');
+    }
     * {
       box-sizing: border-box;
     }
@@ -7,7 +11,7 @@ export default _ =>
     body {
       margin: 0;
       padding: 0;
-      font-family: 'Raleway', sans-serif;
+      font-family: 'Helvetica Neue', Helvetica, sans-serif;
       background-color: #0f6402;
       color: #fff;
       font-size: 16px;
@@ -15,6 +19,7 @@ export default _ =>
     h1,
     h2,
     h3 {
+      font-family: "Gobold-Regular", sans-serif;
       font-weight: 100;
       margin: 0;
     }

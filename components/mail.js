@@ -11,7 +11,7 @@ export default props =>
     noValidate
   >
     <label htmlFor="mce-EMAIL" className="mail__label">
-      Receive news about new courses I release!
+      Receive news about the course release!
     </label>
     <input
       type="email"
@@ -33,7 +33,7 @@ export default props =>
     <div className="clear">
       <input
         type="submit"
-        value="Subscribe"
+        value="Notify me"
         name="subscribe"
         id="mc-embedded-subscribe"
         className="mail__button"
@@ -67,7 +67,7 @@ export default props =>
         border: none;
         font-size: 1.25em;
         color: #fff;
-        font-family: 'Raleway', sans-serif;
+        font-family: 'Helvetica Neue', Helvetica, sans-serif;
       }
       .mail__button:hover {
         color: #fff;

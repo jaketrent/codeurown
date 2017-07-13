@@ -3,6 +3,7 @@ import Head from 'next/head'
 import GlobalStyles from '../components/global-styles'
 import LandingLayout from '../components/landing-layout'
 import Mail from '../components/mail'
+import Title from '../components/title'
 
 const now = _ => new Date().getFullYear()
 
@@ -47,14 +48,10 @@ export default _ =>
       <meta name="HandheldFriendly" content="True" />
       <meta name="MobileOptimized" content="320" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-      <link
-        href="https://fonts.googleapis.com/css?family=Raleway:100,300"
-        rel="stylesheet"
-      />
     </Head>
 
     <GlobalStyles />
 
+    <Title />
     <Mail />
   </LandingLayout>
