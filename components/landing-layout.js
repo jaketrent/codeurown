@@ -17,7 +17,8 @@ export default props =>
     </div>
     <footer className="footer">
       <div className="copyright">
-        &copy; {now} Jake Trent
+        &copy; {now} Jake Trent |{' '}
+        <a href="https://jaketrent.com">jaketrent.com</a>
       </div>
       <div className="blocks">
         <Block color="red" />

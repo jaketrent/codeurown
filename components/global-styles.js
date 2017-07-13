@@ -25,17 +25,8 @@ export default _ =>
       margin: 0;
     }
     a {
-      display: inline-block;
-      color: #fff;
-      text-decoration: none;
-      border-bottom: 1px dashed #889f1e;
-      margin-bottom: 2px;
+      color: inherit;
       cursor: pointer;
-    }
-    a:hover {
-      border-bottom: none;
-      color: #889f1e;
-      border-bottom: 1px solid #889f1e;
     }
     ol {
       margin: 0;
