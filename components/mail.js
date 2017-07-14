@@ -11,7 +11,7 @@ export default props =>
     noValidate
   >
     <label htmlFor="mce-EMAIL" className="mail__label">
-      Receive news about the course release!
+      Interested in knowing when the course is available?
     </label>
     <input
       type="email"
